@@ -1,4 +1,0 @@
-﻿  main.cpp
-C:\Users\UserK\Desktop\GamePrograming4\MyVector\RandomEncounter.h(2,10): error C1083: 포함 파일을 열 수 없습니다. 'ConsoleUtility.h': No such file or directory
-  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
-  
