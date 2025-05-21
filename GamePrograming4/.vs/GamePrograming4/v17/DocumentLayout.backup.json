@@ -3,13 +3,13 @@
   "WorkspaceRootPath": "C:\\Users\\UserK\\Desktop\\GamePrograming4\\GamePrograming4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E357D2CD-311E-4B0B-ACCA-2C0C6C6C03DF}|..\\CH5_STL\\CH5_STL.vcxproj|C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH5_STL\\algo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{ED6DB2A5-EABB-47F6-B1A7-DADEA0BA2174}|..\\CH6 TOWNRPG\\CH6 TOWNRPG.vcxproj|C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH6 TOWNRPG\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E357D2CD-311E-4B0B-ACCA-2C0C6C6C03DF}|..\\CH5_STL\\CH5_STL.vcxproj|C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH5_STL\\MonsterDataBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{ED6DB2A5-EABB-47F6-B1A7-DADEA0BA2174}|..\\CH6 TOWNRPG\\CH6 TOWNRPG.vcxproj|C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH6 TOWNRPG\\GameModel.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E357D2CD-311E-4B0B-ACCA-2C0C6C6C03DF}|..\\CH5_STL\\CH5_STL.vcxproj|C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH5_STL\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{ED6DB2A5-EABB-47F6-B1A7-DADEA0BA2174}|..\\CH6 TOWNRPG\\CH6 TOWNRPG.vcxproj|C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH6 TOWNRPG\\BattleManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,41 +27,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MonsterDataBase.h",
-              "DocumentMoniker": "C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH5_STL\\MonsterDataBase.h",
-              "RelativeDocumentMoniker": "..\\CH5_STL\\MonsterDataBase.h",
-              "ToolTip": "C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH5_STL\\MonsterDataBase.h",
-              "RelativeToolTip": "..\\CH5_STL\\MonsterDataBase.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvw4AAAAXAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "BattleManager.h",
+              "DocumentMoniker": "C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH6 TOWNRPG\\BattleManager.h",
+              "RelativeDocumentMoniker": "..\\CH6 TOWNRPG\\BattleManager.h",
+              "ToolTip": "C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH6 TOWNRPG\\BattleManager.h",
+              "RelativeToolTip": "..\\CH6 TOWNRPG\\BattleManager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-20T08:42:58.168Z",
+              "WhenOpened": "2025-05-21T08:32:33.697Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "algo.h",
-              "DocumentMoniker": "C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH5_STL\\algo.h",
-              "RelativeDocumentMoniker": "..\\CH5_STL\\algo.h",
-              "ToolTip": "C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH5_STL\\algo.h",
-              "RelativeToolTip": "..\\CH5_STL\\algo.h",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAAAFwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-20T08:04:57.807Z",
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH6 TOWNRPG\\main.cpp",
+              "RelativeDocumentMoniker": "..\\CH6 TOWNRPG\\main.cpp",
+              "ToolTip": "C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH6 TOWNRPG\\main.cpp",
+              "RelativeToolTip": "..\\CH6 TOWNRPG\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-21T08:24:40.032Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH5_STL\\main.cpp",
-              "RelativeDocumentMoniker": "..\\CH5_STL\\main.cpp",
-              "ToolTip": "C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH5_STL\\main.cpp",
-              "RelativeToolTip": "..\\CH5_STL\\main.cpp",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAKcAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-20T07:06:46.369Z",
+              "DocumentIndex": 1,
+              "Title": "GameModel.h",
+              "DocumentMoniker": "C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH6 TOWNRPG\\GameModel.h",
+              "RelativeDocumentMoniker": "..\\CH6 TOWNRPG\\GameModel.h",
+              "ToolTip": "C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH6 TOWNRPG\\GameModel.h",
+              "RelativeToolTip": "..\\CH6 TOWNRPG\\GameModel.h",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-21T08:12:28.865Z",
               "EditorCaption": ""
             }
           ]
