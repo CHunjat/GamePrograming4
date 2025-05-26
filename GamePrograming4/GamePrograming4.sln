@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CH7 DataLoadAndSave", "..\C
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CH8_enum Vector", "..\CH8_enum Vector\CH8_enum Vector.vcxproj", "{8126647E-AB71-439B-B3B2-AC7A383814FD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CH9_Sequence Container", "..\CH9_Sequence Container\CH9_Sequence Container.vcxproj", "{FFA76796-4B65-4425-B7B7-4A9BA1DE5D6F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{8126647E-AB71-439B-B3B2-AC7A383814FD}.Release|x64.Build.0 = Release|x64
 		{8126647E-AB71-439B-B3B2-AC7A383814FD}.Release|x86.ActiveCfg = Release|Win32
 		{8126647E-AB71-439B-B3B2-AC7A383814FD}.Release|x86.Build.0 = Release|Win32
+		{FFA76796-4B65-4425-B7B7-4A9BA1DE5D6F}.Debug|x64.ActiveCfg = Debug|x64
+		{FFA76796-4B65-4425-B7B7-4A9BA1DE5D6F}.Debug|x64.Build.0 = Debug|x64
+		{FFA76796-4B65-4425-B7B7-4A9BA1DE5D6F}.Debug|x86.ActiveCfg = Debug|Win32
+		{FFA76796-4B65-4425-B7B7-4A9BA1DE5D6F}.Debug|x86.Build.0 = Debug|Win32
+		{FFA76796-4B65-4425-B7B7-4A9BA1DE5D6F}.Release|x64.ActiveCfg = Release|x64
+		{FFA76796-4B65-4425-B7B7-4A9BA1DE5D6F}.Release|x64.Build.0 = Release|x64
+		{FFA76796-4B65-4425-B7B7-4A9BA1DE5D6F}.Release|x86.ActiveCfg = Release|Win32
+		{FFA76796-4B65-4425-B7B7-4A9BA1DE5D6F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -130,9 +130,7 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ConsoleUtility.h">
-      <FileType>RC</FileType>
-    </ClInclude>
+    <ClInclude Include="ConsoleUtility.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
