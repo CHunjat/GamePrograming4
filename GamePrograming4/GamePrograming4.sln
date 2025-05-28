@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CH9_Sequence Container", ".
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CH10_ Deque", "..\CH10_ De\CH10_ De.vcxproj", "{B51C5ED2-13F1-4C3D-8C9D-2E9A1FA5271B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CH11 STL Containers", "..\CH11 STL Containers\CH11 STL Containers.vcxproj", "{3665D480-D818-450F-AAA4-FC3335B31569}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -131,6 +133,14 @@ Global
 		{B51C5ED2-13F1-4C3D-8C9D-2E9A1FA5271B}.Release|x64.Build.0 = Release|x64
 		{B51C5ED2-13F1-4C3D-8C9D-2E9A1FA5271B}.Release|x86.ActiveCfg = Release|Win32
 		{B51C5ED2-13F1-4C3D-8C9D-2E9A1FA5271B}.Release|x86.Build.0 = Release|Win32
+		{3665D480-D818-450F-AAA4-FC3335B31569}.Debug|x64.ActiveCfg = Debug|x64
+		{3665D480-D818-450F-AAA4-FC3335B31569}.Debug|x64.Build.0 = Debug|x64
+		{3665D480-D818-450F-AAA4-FC3335B31569}.Debug|x86.ActiveCfg = Debug|Win32
+		{3665D480-D818-450F-AAA4-FC3335B31569}.Debug|x86.Build.0 = Debug|Win32
+		{3665D480-D818-450F-AAA4-FC3335B31569}.Release|x64.ActiveCfg = Release|x64
+		{3665D480-D818-450F-AAA4-FC3335B31569}.Release|x64.Build.0 = Release|x64
+		{3665D480-D818-450F-AAA4-FC3335B31569}.Release|x86.ActiveCfg = Release|Win32
+		{3665D480-D818-450F-AAA4-FC3335B31569}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

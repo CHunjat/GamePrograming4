@@ -3,16 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\UserK\\Desktop\\GamePrograming4\\GamePrograming4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B51C5ED2-13F1-4C3D-8C9D-2E9A1FA5271B}|..\\CH10_ De\\CH10_ De.vcxproj|C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH10_ De\\FP2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B51C5ED2-13F1-4C3D-8C9D-2E9A1FA5271B}|..\\CH10_ De\\CH10_ De.vcxproj|C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH10_ De\\DequeTest.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B51C5ED2-13F1-4C3D-8C9D-2E9A1FA5271B}|..\\CH10_ De\\CH10_ De.vcxproj|C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH10_ De\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F02FE008-E31C-41BC-851C-90D98BF3BC46}|..\\CH7 DataLoadAndSave\\CH7 DataLoadAndSave.vcxproj|C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH7 DataLoadAndSave\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3665D480-D818-450F-AAA4-FC3335B31569}|..\\CH11 STL Containers\\CH11 STL Containers.vcxproj|C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH11 STL Containers\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{66E0C5B0-1961-4B72-90E9-14864DDD0A22}|..\\UtilityProject\\UtilityProject.vcxproj|C:\\Users\\UserK\\Desktop\\GamePrograming4\\UtilityProject\\ConsoleUtility.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
@@ -25,7 +16,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -37,64 +28,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH7 DataLoadAndSave\\main.cpp",
-              "RelativeDocumentMoniker": "..\\CH7 DataLoadAndSave\\main.cpp",
-              "ToolTip": "C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH7 DataLoadAndSave\\main.cpp",
-              "RelativeToolTip": "..\\CH7 DataLoadAndSave\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-27T08:34:47.606Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "ConsoleUtility.h",
               "DocumentMoniker": "C:\\Users\\UserK\\Desktop\\GamePrograming4\\UtilityProject\\ConsoleUtility.h",
               "RelativeDocumentMoniker": "..\\UtilityProject\\ConsoleUtility.h",
               "ToolTip": "C:\\Users\\UserK\\Desktop\\GamePrograming4\\UtilityProject\\ConsoleUtility.h",
               "RelativeToolTip": "..\\UtilityProject\\ConsoleUtility.h",
-              "ViewState": "AgIAAA8AAAAAAAAAAADwvw0AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-27T07:15:45.913Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DequeTest.h",
-              "DocumentMoniker": "C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH10_ De\\DequeTest.h",
-              "RelativeDocumentMoniker": "..\\CH10_ De\\DequeTest.h",
-              "ToolTip": "C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH10_ De\\DequeTest.h",
-              "RelativeToolTip": "..\\CH10_ De\\DequeTest.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-27T07:10:49.421Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FP2.h",
-              "DocumentMoniker": "C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH10_ De\\FP2.h",
-              "RelativeDocumentMoniker": "..\\CH10_ De\\FP2.h",
-              "ToolTip": "C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH10_ De\\FP2.h",
-              "RelativeToolTip": "..\\CH10_ De\\FP2.h",
-              "ViewState": "AgIAAJAAAAAAAAAAAAAAAJgAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-27T07:10:36.266Z",
+              "WhenOpened": "2025-05-27T07:15:45.913Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH10_ De\\main.cpp",
-              "RelativeDocumentMoniker": "..\\CH10_ De\\main.cpp",
-              "ToolTip": "C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH10_ De\\main.cpp",
-              "RelativeToolTip": "..\\CH10_ De\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH11 STL Containers\\main.cpp",
+              "RelativeDocumentMoniker": "..\\CH11 STL Containers\\main.cpp",
+              "ToolTip": "C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH11 STL Containers\\main.cpp",
+              "RelativeToolTip": "..\\CH11 STL Containers\\main.cpp",
+              "ViewState": "AgIAAHIBAAAAAAAAAAAAAIcBAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-27T07:06:12.079Z"
+              "WhenOpened": "2025-05-28T07:00:28.121Z",
+              "EditorCaption": ""
             }
           ]
         }

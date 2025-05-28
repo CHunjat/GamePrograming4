@@ -30,7 +30,7 @@ public:
 		SetConsoleCursorInfo(GetStdHandle(STD_OUTPUT_HANDLE), &c);
 	}
 
-	static void TimeCheck(void(*Func)())
+	static void TimeCheck(void(*Func)()) //함수 포인터를사요ㅕㅇ해보자
 	{
 		auto start = std::chrono::high_resolution_clock::now();
 
