@@ -3,10 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\UserK\\Desktop\\GamePrograming4\\GamePrograming4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3665D480-D818-450F-AAA4-FC3335B31569}|..\\CH11 STL Containers\\CH11 STL Containers.vcxproj|C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH11 STL Containers\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66E0C5B0-1961-4B72-90E9-14864DDD0A22}|..\\UtilityProject\\UtilityProject.vcxproj|C:\\Users\\UserK\\Desktop\\GamePrograming4\\UtilityProject\\ConsoleUtility.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3F127FE1-87AE-4BDB-9851-39E1C513170D}|..\\CH12_Associate_Container\\CH12_Associate_Container.vcxproj|C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH12_Associate_Container\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -16,7 +13,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -28,28 +25,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ConsoleUtility.h",
-              "DocumentMoniker": "C:\\Users\\UserK\\Desktop\\GamePrograming4\\UtilityProject\\ConsoleUtility.h",
-              "RelativeDocumentMoniker": "..\\UtilityProject\\ConsoleUtility.h",
-              "ToolTip": "C:\\Users\\UserK\\Desktop\\GamePrograming4\\UtilityProject\\ConsoleUtility.h",
-              "RelativeToolTip": "..\\UtilityProject\\ConsoleUtility.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-27T07:15:45.913Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH11 STL Containers\\main.cpp",
-              "RelativeDocumentMoniker": "..\\CH11 STL Containers\\main.cpp",
-              "ToolTip": "C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH11 STL Containers\\main.cpp",
-              "RelativeToolTip": "..\\CH11 STL Containers\\main.cpp",
-              "ViewState": "AgIAAHIBAAAAAAAAAAAAAIcBAAAQAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH12_Associate_Container\\main.cpp",
+              "RelativeDocumentMoniker": "..\\CH12_Associate_Container\\main.cpp",
+              "ToolTip": "C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH12_Associate_Container\\main.cpp",
+              "RelativeToolTip": "..\\CH12_Associate_Container\\main.cpp",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGMAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-28T07:00:28.121Z",
+              "WhenOpened": "2025-05-29T07:02:27.018Z",
               "EditorCaption": ""
             }
           ]
