@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\UserK\Desktop\GamePrograming4\CH14_HASH\main.cpp(25,15): warning C4309: '인수': 상수 값이 잘립니다.
+C:\Users\UserK\Desktop\GamePrograming4\CH14_HASH\main.cpp(80,7): warning C4834: [[nodiscard]] 특성이 포함된 함수의 반환 값을 버리는 중입니다.
+C:\Users\UserK\Desktop\GamePrograming4\CH14_HASH\main.cpp(96,10): warning C4834: [[nodiscard]] 특성이 포함된 함수의 반환 값을 버리는 중입니다.
+  CH14_HASH.vcxproj -> C:\Users\UserK\Desktop\GamePrograming4\GamePrograming4\x64\Debug\CH14_HASH.exe
