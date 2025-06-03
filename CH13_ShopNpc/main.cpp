@@ -20,6 +20,7 @@
 #include <fstream> //ifstream ofstream
 #include <iomanip> // 입출력 조작 헤더
 #include <string>
+#include <unordered_map> // 플레이어의 인벤토리를 위한 자료구조
 
 const int total_with = 60;  //전체 
 const int field1_width = 30; //이름
@@ -35,15 +36,103 @@ public:
 public:
 	Item() = default;
 	Item(std::string name, int price, std::string type) : name(name), price(price), type(type) {}
+
+	virtual void Use() = 0; //순수가상함수 : Item을 상속하는 클래스가 이 함수를 반드시 구현을 하세요!
 };
+
+
+class Weapon : public Item
+{
+public:
+	Weapon(std::string name, int price, std::string type) : Item(name, price, type) {}
+
+	void Use() override
+	{
+		std::cout << "무기를 사용합니다" << std::endl;
+	}
+};
+
+class UsableItem : public Item
+{
+public:
+	UsableItem(std::string name, int price, std::string type) : Item(name, price, type) {}
+
+	void Use() override
+	{
+		std::cout << "소비성 아이템을 사용합니다." << std::endl;
+	}
+};
+
+
+
+
+/// <summary>
+/// UsableItem 아이템을 use했을때 사라지는 종류의 아이템입니다.
+/// Player 클래스의 RemoveItem을 사용하세요
+/// </summary>
+
+
 
 #pragma region Player 코드
 class Player
 {
+private:
+	// Item items[100]; 다음 코드의 문제점?
+	std::unordered_map<std::string, Item*> inventory; // Item을 아이템의 이름으로 찾는 컨테이너
 
 public:
 	int posX, posY, Money;
 
+#pragma region 인벤토리 코드
+	// 플레이어가 소유가 인벤토리를 자료구조를 한가지 선택해서. 그 자료구조에 구매한 아이템을 저장해보세요.
+	// 저장한 자료구조를 사용하는 함수를 만들면 됩니다.
+	
+
+
+	/*
+	* 상점은 전부다 아이템을 팔아야 한다. (공통된 클래스 -> Item)
+	* 해당 아이템 같은 함수 Use() 갖고 있지만 다른 기능으로 사용하고 싶다. (클래스의 다형성)
+	* Item을 주소로 받아오면 다형성을 사용할 수있다.
+	*/
+
+	// 특정 키를 눌렀을 때 (게임 입력 Player Input)
+
+	// PushOne 함수 포인터 PushOne();
+
+	void Use(Item* item)
+	{
+		//소비 아이템 -> 적용...
+		//장비 아이템 -> 장비 장착...
+		item->Use();
+	}
+	void AddItem(Item* item)
+	{
+		inventory.insert({ item->name, item });
+	}
+
+	void RemoveItem(std::string name)
+	{
+		//제거할 수 없는 경우에는?
+		if (inventory.find(name) != inventory.end()) //컨테이너 데이터가 존재할 떄만 실행하세요
+		{
+			inventory.erase(name);
+		}
+		else
+		{
+			std::cout << "인벤토리에 해당하는 아이템이 없습니다" << std::endl;
+		}
+	
+
+	}
+	void RemoveItem(Item* item)
+	{
+		inventory.erase(item->name);
+	}
+
+
+#pragma endregion
+
+	
 	Player() = default;
 	Player(int posX, int posY, int Money) : posX(posX), posY(posY), Money(Money) {}
 
@@ -57,16 +146,17 @@ public:
 		std::cout << "플레이어의 소지금 : " << Money;
 		ConsoleUtil::GotoXY(65, 3);
 		std::cout << "보유한 아이템 : ";
-
+		ConsoleUtil::GotoXY(65, 4);
+		for (const auto& item : inventory)
+		{
+			std::cout << item.first << " 의 가격 : " << item.second->price << "||"; 
+		}
 	}
 
-	void BuyItem(Item& item)
+	void BuyItem(Item* item)
 	{
-		Money -= item.price; //돈지불
-
-		// 플레이어가 소유가 인벤토리를 자료구조를 한가지 선택해서. 그 자료구조에 구매한 아이템을 저장해보세요.
-		    
-		// 저장한 자료구조를 사용하는 함수를 만들면 됩니다.
+		Money -= item->price; //돈지불
+		AddItem(item);
 	}
 };
 #pragma endregion 
@@ -74,24 +164,25 @@ public:
 
 #pragma region 상점코드
 
-
-
 class Shop
 {
 private:
-	std::map<int, Item> items; // 자료구조 클래스를 보관한다.
+	std::map<int, Item*> items; // 자료구조 클래스를 보관한다.
+	/*
+	* Item 추상 클래스 만들면, item 자체를 클래스로 생성할 수 없다.(인스턴스)
+	* 주소로 받아와야 하는데 enum 타입에 따라 클래스를 다르게 사용하게끔 코드를 작성해야한다.
+	* "팩토리 패턴" -팩토리 클래스로 만들어서 생성자를 다르게 구현할 수 있다.
+	*/
 
 public:
 	Shop() //데이터를 초기화 한다.
 	{
-		items.insert({ 0, Item("스태미나포션" , 100, "소비") });  //방법1
-
-		items.insert(std::make_pair(1, Item("마나엘릭서", 150, "소비"))); //방법2
-
-		std::pair<int, Item> p1(2, Item("볼트", 8, "소비"));//방법3
+		items.insert({ 0,new UsableItem("스태미나포션" , 100, "소비") });  //방법1
+		items.insert(std::make_pair(1, new UsableItem("마나엘릭서", 150, "소비"))); //방법2
+		std::pair<int, Item*> p1(2, new UsableItem("볼트", 8, "소비"));//방법3
 		items.insert(p1);
-		items.insert({ 3, Item("석궁" , 115, "무기") });  //방법1
-		items.insert({ 4, Item("야구방망이" , 70, "무기") });  //방법1
+		items.insert({ 3, new Weapon("석궁" , 115, "무기") });  //방법1
+		items.insert({ 4, new Weapon("야구방망이" , 70, "무기") });  //방법1
 	}
 
 	Shop(std::string filename)
@@ -120,8 +211,18 @@ public:
 
 		while (!in_file.eof()) //end of file 파일의 끝이 도달했을때 true를 반환하는 함수, 즉, 도달안했으면 도달할대까지 반복하는 while문
 		{
-			in_file >> name >> price >> type;				  // 파일에서 name, price, type 읽기 
-			items.insert({ index, Item(name, price, type) }); // map 자료구조에 저장
+			in_file >> name >> price >> type;	
+			
+			if (type == "무기")
+			{
+				items.insert({ index, new Weapon(name, price, type) }); // map 자료구조에 저장
+			
+			}
+			else
+			{
+				items.insert({ index, new UsableItem(name, price, type) }); // map 자료구조에 저장
+				
+			}
 			index++;										  // 다음 index 넘어가기
 		}
 		in_file.close();
@@ -145,12 +246,10 @@ public:
 
 		for (int i = 0; i < items.size(); i++)  //데이터를 저장하라 출력하라를 조금바꿔서 
 		{
-			out_file << std::setw(field1_width) << std::left << items[i].name
-				<< std::setw(field2_width) << std::right << items[i].price
-				<< std::setw(field3_width) << std::right << items[i].type << std::endl;
+			out_file << std::setw(field1_width) << std::left << items[i]->name
+				<< std::setw(field2_width) << std::right << items[i]->price
+				<< std::setw(field3_width) << std::right << items[i]->type << std::endl;
 		}
-		
-
 		out_file.close();
 	}
 
@@ -180,9 +279,9 @@ public:
 		{
 			ConsoleUtil::GotoXY(x, y + 2 + i);
 
-			std::cout << std::setw(field1_width) << std::left << items[i].name
-				<< std::setw(field2_width) << std::right << items[i].price
-				<< std::setw(field3_width) << std::right << items[i].type
+			std::cout << std::setw(field1_width) << std::left << items[i]->name
+				<< std::setw(field2_width) << std::right << items[i]->price
+				<< std::setw(field3_width) << std::right << items[i]->type
 				<< std::endl;
 		
 		}
@@ -202,8 +301,8 @@ public:
 	{
 		if (items.find(index) != items.end()) //아이템을 찾았다!
 		{
-			Item itemInstance = items[index];
-			if (player.Money >= itemInstance.price) // 플레이어가 소지금이 충분할때
+			Item* itemInstance = items[index];
+			if (player.Money >= itemInstance->price) // 플레이어가 소지금이 충분할때
 			{
 				player.BuyItem(itemInstance);
 				return true;
@@ -224,7 +323,7 @@ public:
 		int select;
 		std::cout << "번호를 입력하여 아이템을 구매할 수 있습니다" << std::endl;
 		std::cin >> select;
-	
+		BuyItem(select, player);
 	}
 
 };
@@ -293,7 +392,7 @@ int main()
 {
 	ConsoleUtil::SetCursorVisible(false);
 
-	Player player(10, 10, 1000); // 플레이어의 시작설정
+	Player player(10, 10, 800); // 플레이어의 시작설정
 
 	//int PlayerX = 10;
 	//int PlayerY = 10;

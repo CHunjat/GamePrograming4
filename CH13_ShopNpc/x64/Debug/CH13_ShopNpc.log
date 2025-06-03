@@ -1,3 +1,4 @@
 ﻿  main.cpp
-C:\Users\UserK\Desktop\GamePrograming4\CH13_ShopNpc\main.cpp(137,7): warning C4101: 'price' :참조되지 않은 지역 변수입니다.
+C:\Users\UserK\Desktop\GamePrograming4\CH13_ShopNpc\main.cpp(238,7): warning C4101: 'price' :참조되지 않은 지역 변수입니다.
+C:\Users\UserK\Desktop\GamePrograming4\CH13_ShopNpc\main.cpp(319,1): warning C4715: 'Shop::BuyItem': 모든 제어 경로에서 값을 반환하지는 않습니다.
   CH13_ShopNpc.vcxproj -> C:\Users\UserK\Desktop\GamePrograming4\GamePrograming4\x64\Debug\CH13_ShopNpc.exe

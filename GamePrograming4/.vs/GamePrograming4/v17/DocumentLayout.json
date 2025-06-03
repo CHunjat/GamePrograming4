@@ -4,9 +4,6 @@
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{BD16D2BE-1E4D-40A1-BAFA-1FA781C9C065}|..\\CH13_ShopNpc\\CH13_ShopNpc.vcxproj|C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH13_ShopNpc\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9397F82-E604-4240-A031-CC9050BDF741}|..\\CH14_HASH\\CH14_HASH.vcxproj|C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH14_HASH\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -16,7 +13,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -28,28 +25,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH14_HASH\\main.cpp",
-              "RelativeDocumentMoniker": "..\\CH14_HASH\\main.cpp",
-              "ToolTip": "C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH14_HASH\\main.cpp",
-              "RelativeToolTip": "..\\CH14_HASH\\main.cpp",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAAAHUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-02T07:01:20.402Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH13_ShopNpc\\main.cpp",
               "RelativeDocumentMoniker": "..\\CH13_ShopNpc\\main.cpp",
               "ToolTip": "C:\\Users\\UserK\\Desktop\\GamePrograming4\\CH13_ShopNpc\\main.cpp",
               "RelativeToolTip": "..\\CH13_ShopNpc\\main.cpp",
-              "ViewState": "AgIAAFsBAAAAAAAAAAAAAC0BAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAACwBAAAAAAAAAAAQwD4BAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-02T07:01:03.152Z",
+              "WhenOpened": "2025-06-03T08:06:29.948Z",
               "EditorCaption": ""
             }
           ]
